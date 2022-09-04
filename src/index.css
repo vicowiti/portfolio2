@@ -4,9 +4,35 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
+body,
+body::before,
+body::after {
   font-family: "Lato", sans-serif;
   scroll-behavior: smooth;
   background-color: #121212;
   color: #fff;
+}
+
+.banner {
+  background-image: url("./assets/banner-bg.png");
+  background-position: top center;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-animate {
+  animation: updown 3s linear infinite;
+}
+
+@keyframes updown {
+  0% {
+    transform: translateY(-20px);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
 }
