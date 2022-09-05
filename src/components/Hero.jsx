@@ -54,7 +54,7 @@ const Hero = () => {
             Welcome to my Portfolio
           </span>
           <h1 className="text-[30px] lg:text-[65px] font-bold mb-[5px] block">{`Hi, I'm Victor`}</h1>{" "}
-          <span className="text-[30px] lg:text-[65px] font-bold mb-14 block  h-8">
+          <span className="text-[30px] lg:text-[55px] font-bold mb-14 block  h-8">
             {text}
           </span>
           <p className="text-[#b8b8b8 text-lg w-96% ">

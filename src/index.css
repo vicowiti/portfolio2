@@ -36,3 +36,19 @@ body::after {
     transform: translateY(-20px);
   }
 }
+
+.skills {
+  background-image: url("./assets/color-sharp.png");
+  background-position: top center;
+  width: 100vw;
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.projects {
+  background-image: url("./assets/color-sharp2.png");
+  background-position: top center;
+  width: 100vw;
+  background-repeat: repeat;
+  background-size: cover;
+}
