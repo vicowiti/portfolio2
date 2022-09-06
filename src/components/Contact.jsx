@@ -37,8 +37,9 @@ const Contact = () => {
             </div>
             <div className="w-full flex gap-4 my-4 flex-col md:flex-row">
               <textarea
-                name=""
-                id=""
+                name="message"
+                id="message"
+                placeholder="Message"
                 cols="30"
                 rows="10"
                 className="bg-black/30 outline-none  rounded-xl p-3 flex-1"

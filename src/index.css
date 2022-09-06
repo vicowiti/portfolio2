@@ -11,12 +11,13 @@ body::after {
   scroll-behavior: smooth;
   background-color: #121212;
   color: #fff;
+  overflow-x: hidden;
 }
 
 .banner {
   background-image: url("./assets/banner-bg.png");
   background-position: top center;
-  width: 100%;
+  width: 100vw;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -47,6 +48,14 @@ body::after {
 
 .projects {
   background-image: url("./assets/color-sharp2.png");
+  background-position: top center;
+  width: 100vw;
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.footer {
+  background-image: url("./assets/footer-bg.png");
   background-position: top center;
   width: 100vw;
   background-repeat: repeat;
