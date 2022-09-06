@@ -3,7 +3,10 @@ import contactImg from "../assets/contact-img.svg";
 
 const Contact = () => {
   return (
-    <section className="min-h-[100vh] w-[100vw]  bg-gradient-to-r from-[rgba(170,54,124,0.5)] to-[rgba(74,47,189,0.5)]">
+    <section
+      id="contact"
+      className="min-h-[100vh] w-[100vw]  bg-gradient-to-r from-[rgba(170,54,124,0.5)] to-[rgba(74,47,189,0.5)]"
+    >
       <div className="flex flex-col lg:flex-row p-10  justify-center">
         <section className="flex-1">
           <img src={contactImg} alt="Contact-image" className="w-full mt-5" />

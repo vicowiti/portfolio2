@@ -23,7 +23,7 @@ const Navbar = () => {
           Skills
         </a>
         <a
-          href="projects"
+          href="#projects"
           className="hover:text-gray-400 hover:scale-105 duration-700"
         >
           Projects
@@ -51,9 +51,11 @@ const Navbar = () => {
         >
           <FaGithub size={30} />
         </a>
-        <button className="border h-12 px-5 text-lg hover:bg-white hover:text-[#121212] hover:scale-105 duration-700">
-          Lets Connect
-        </button>
+        <a href="#contact">
+          <button className="border h-12 px-5 text-lg hover:bg-white hover:text-[#121212] hover:scale-105 duration-700">
+            Lets Connect
+          </button>
+        </a>
       </div>
     </header>
   );
