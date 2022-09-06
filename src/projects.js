@@ -8,7 +8,7 @@ import Nreel from "./assets/projects/netflix.png";
 export const projects = [
   {
     id: 1,
-    name: "Netflix Clone",
+    name: "Full Stack Netflix Clone",
     imgUrl: Nreel,
     liveUrl: "https://n-reel.web.app/",
     gitUrl: "https://github.com/vicowiti/netflix2",
@@ -43,7 +43,7 @@ export const projects = [
   },
   {
     id: 6,
-    name: "Vdial Ecommerce",
+    name: "Full Stack Ecommerce",
     imgUrl: Vdial,
     liveUrl: "https://ecommerce-app-vicowiti.vercel.app/",
     gitUrl: "https://github.com/vicowiti/nextjsts-ecommerce-app",
