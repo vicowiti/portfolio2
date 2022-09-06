@@ -5,6 +5,11 @@ import ts from "../src/assets/skills/typescript.png";
 import react from "../src/assets/skills/react.png";
 import tailwind from "../src/assets/skills/tailwind.png";
 import node from "../src/assets/skills/node.png";
+import figma from "../src/assets/skills/figma.png";
+import git from "../src/assets/skills/git.png";
+import next from "../src/assets/skills/next-js.png";
+import reduxt from "../src/assets/skills/redux.png";
+import python from "../src/assets/skills/python.png";
 
 export const skills = [
   {
@@ -45,27 +50,27 @@ export const skills = [
 
   {
     id: 8,
-    imgUrl: node,
+    imgUrl: figma,
     name: "FIGMA",
   },
   {
     id: 9,
-    imgUrl: node,
+    imgUrl: git,
     name: "SOURCE CONTROL",
   },
   {
     id: 10,
-    imgUrl: node,
+    imgUrl: python,
     name: "PYTHON",
   },
   {
     id: 11,
-    imgUrl: node,
+    imgUrl: next,
     name: "NEXT JS",
   },
   {
     id: 12,
-    imgUrl: node,
+    imgUrl: reduxt,
     name: "REDUX",
   },
 ];
