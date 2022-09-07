@@ -13,14 +13,22 @@ const Contact = () => {
         </section>
         <section className="flex-1">
           <h1 className="text-[30px] lg:text-[55px] font-bold">Get In Touch</h1>
-          <form className="w-full">
+          <form
+            className="w-full"
+            action="https://getform.io/f/2e3b62f2-d020-4f0d-a749-80cd7a87c6a7"
+            method="POST"
+          >
             <div className="w-full flex flex-col md:flex-row gap-4 my-4">
               <input
+                required
+                name="firstName"
                 type="text"
                 placeholder="First Name"
                 className=" bg-black/30 outline-none  rounded-xl p-3 flex-1"
               />
               <input
+                required
+                name="lastName"
                 type="text"
                 placeholder="Last Name"
                 className=" bg-black/30 outline-none  rounded-xl p-3 flex-1"
@@ -28,12 +36,15 @@ const Contact = () => {
             </div>
             <div className="w-full flex gap-4 my-4 flex-col md:flex-row">
               <input
-                type="text"
-                placeholder="Email address"
+                required
+                type="email"
+                name="email"
+                placeholder="Email Address"
                 className=" bg-black/30 outline-none  rounded-xl p-3 flex-1"
               />
               <input
                 type="text"
+                name="phone"
                 placeholder="Phone No."
                 className=" bg-black/30 outline-none  rounded-xl p-3 flex-1"
               />
@@ -49,7 +60,10 @@ const Contact = () => {
               ></textarea>
             </div>
             <div>
-              <button className="rounded-xl w-full py-3 text-xl bg-gradient-to-r from-[rgba(170,54,124,0.5)] to-[rgba(74,47,189,0.5)] hover:border duration-500">
+              <button
+                type="submit"
+                className="rounded-xl w-full py-3 text-xl bg-gradient-to-r from-[rgba(170,54,124,0.5)] to-[rgba(74,47,189,0.5)] hover:border duration-500"
+              >
                 Send
               </button>
             </div>
