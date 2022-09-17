@@ -62,12 +62,14 @@ const Hero = () => {
             accessibility oriented digital experiences. I am always seeking to
             learn and apply new technologies.
           </p>
-          <button className="mt-5 flex gap-2 items-center">
-            <span className="text-xl hover:scale-105 duration-700">
-              Download CV
-            </span>{" "}
-            <FaArrowRight size={20} />
-          </button>
+          <a href="../assets/skills/01resume.pdf" download="01victorcv.pdf">
+            <button className="mt-5 flex gap-2 items-center">
+              <span className="text-xl hover:scale-105 duration-700">
+                Download CV
+              </span>{" "}
+              <FaArrowRight size={20} />
+            </button>
+          </a>
         </div>
         <div className="bg-transparent h-[400px] flex-1 mt-32">
           <img
