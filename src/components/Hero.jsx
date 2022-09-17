@@ -2,6 +2,8 @@ import React from "react";
 import headerImg from "../assets/header-img.svg";
 import { useEffect, useState } from "react";
 import { FaArrowRight } from "react-icons/fa";
+import CV from "../../public/01resume.pdf";
+
 const Hero = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
@@ -62,7 +64,7 @@ const Hero = () => {
             accessibility oriented digital experiences. I am always seeking to
             learn and apply new technologies.
           </p>
-          <a href="../assets/skills/01resume.pdf" download="01victorcv.pdf">
+          <a href={CV} download target="_blank">
             <button className="mt-5 flex gap-2 items-center">
               <span className="text-xl hover:scale-105 duration-700">
                 Download CV
