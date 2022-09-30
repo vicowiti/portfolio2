@@ -2,7 +2,7 @@ import React from "react";
 import headerImg from "../assets/header-img.svg";
 import { useEffect, useState } from "react";
 import { FaArrowRight } from "react-icons/fa";
-import CV from "../../public/01resume.pdf";
+import CV from "../../public/001resume.pdf";
 
 const Hero = () => {
   const [loopNum, setLoopNum] = useState(0);
