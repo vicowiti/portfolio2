@@ -1,5 +1,5 @@
 import React from "react";
-import headerImg from "../assets/header-img.svg";
+import headerImg from "../assets/skills/panther.png";
 import { useEffect, useState } from "react";
 import { FaArrowRight } from "react-icons/fa";
 import CV from "../../public/001resume.pdf";
