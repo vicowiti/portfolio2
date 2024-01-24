@@ -16,6 +16,13 @@ const Navbar = () => {
         >
           Home
         </a>
+
+        <a
+          href="#experience"
+          className="hover:text-gray-400 hover:scale-105 duration-700"
+        >
+          Experience
+        </a>
         <a
           href="#skills"
           className="hover:text-gray-400 hover:scale-105 duration-700"
