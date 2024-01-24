@@ -3,7 +3,7 @@ import logo from "../assets/vlogo.png";
 import { FaGithub, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 const Navbar = () => {
   return (
-    <header className="flex h-[80px] items-center justify-between mx-16 bg-transparent fixed top-0 w-[90vw]">
+    <header className="flex h-[80px] items-center justify-between px-16 bg-black/60 fixed top-0 w-full z-[10000000]">
       <div>
         <a href="#home" className="w-[150px]">
           <img alt="logo" src={logo} className="w-[inherit]" />
