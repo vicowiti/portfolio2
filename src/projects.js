@@ -4,8 +4,16 @@ import Golds from "./assets/projects/golds.png";
 import Mbuga from "./assets/projects/mbuga.png";
 import SpaceX from "./assets/projects/spacex.png";
 import Nreel from "./assets/projects/netflix.png";
+import WFA from "./assets/projects/wfa-mockup.png";
 
 export const projects = [
+  {
+    id: 0,
+    name: "Workgorce Africa WebApp",
+    imgUrl: WFA,
+    liveUrl: "https://workforceafrica.co/",
+    gitUrl: "",
+  },
   {
     id: 1,
     name: "Full Stack Netflix Clone",

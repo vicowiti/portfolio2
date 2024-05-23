@@ -1,0 +1,31 @@
+import Little from "./assets/logos/littleLogo.svg";
+import WFA from "./assets/logos/wfa.png";
+import Collab from "./assets/logos/collab.jpg";
+import Enigma from "./assets/logos/enigma.png";
+
+export const experience = [
+  {
+    id: 1,
+    name: "Little App Africa",
+    duration: "June 2023 - Date",
+    image: Little,
+  },
+  {
+    id: 2,
+    name: "Enigma Big Data Labs",
+    duration: "April 2023 - June 2023 ",
+    image: Enigma,
+  },
+  {
+    id: 3,
+    name: "Workforce Africa",
+    duration: "Jan 2023 - April 2023",
+    image: WFA,
+  },
+  {
+    id: 3,
+    name: "The Collab Lab",
+    duration: "Oct 2022 - Dec 2022",
+    image: Collab,
+  },
+];
