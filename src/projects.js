@@ -9,7 +9,7 @@ import WFA from "./assets/projects/wfa-mockup.png";
 export const projects = [
   {
     id: 0,
-    name: "Workgorce Africa WebApp",
+    name: "Workforce Africa WebApp",
     imgUrl: WFA,
     liveUrl: "https://workforceafrica.co/",
     gitUrl: "",
