@@ -28,4 +28,10 @@ export const experience = [
     duration: "Oct 2022 - Dec 2022",
     image: Collab,
   },
+  {
+    id: 4,
+    name: "",
+    duration: "",
+    image: "",
+  },
 ];

@@ -44,6 +44,7 @@ body::after {
   width: 100vw;
   background-repeat: repeat;
   background-size: cover;
+  padding: 0 30px;
 }
 
 .projects {
@@ -52,6 +53,7 @@ body::after {
   width: 100vw;
   background-repeat: repeat;
   background-size: cover;
+  padding: 0 30px;
 }
 
 .footer {
@@ -60,4 +62,5 @@ body::after {
   width: 100vw;
   background-repeat: repeat;
   background-size: cover;
+  padding: 0 30px;
 }
