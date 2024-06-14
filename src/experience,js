@@ -2,7 +2,7 @@ import Little from "./assets/logos/littleLogo.svg";
 import WFA from "./assets/logos/wfa.png";
 import Collab from "./assets/logos/collab.jpg";
 import Enigma from "./assets/logos/enigma.png";
-import Zeraki from "./assets/logos/logo.png";
+import Zeraki from "./assets/logos/zeraki.png";
 
 export const experience = [
   {
