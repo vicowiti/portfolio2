@@ -2,12 +2,19 @@ import Little from "./assets/logos/littleLogo.svg";
 import WFA from "./assets/logos/wfa.png";
 import Collab from "./assets/logos/collab.jpg";
 import Enigma from "./assets/logos/enigma.png";
+import Zeraki from "./assets/logos/logo.png";
 
 export const experience = [
   {
+    id: 4,
+    name: "Zeraki",
+    duration: "June 2023 - Date",
+    image: Zeraki,
+  },
+  {
     id: 1,
     name: "Little App Africa",
-    duration: "June 2023 - Date",
+    duration: "June 2023 - June 2023",
     image: Little,
   },
   {
@@ -27,11 +34,5 @@ export const experience = [
     name: "The Collab Lab",
     duration: "Oct 2022 - Dec 2022",
     image: Collab,
-  },
-  {
-    id: 4,
-    name: "",
-    duration: "",
-    image: "",
   },
 ];
